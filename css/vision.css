@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f4e3;
+}
+#Principal{
+    background-color: #f8f4e3;
+    width: 98%;
+    margin: 0 auto;
+}
+header{
+    text-align: left;
+    background-color: #68460b;
+    align-items: flex-start;
+    margin-top: 25px;
+    padding: 2em;
+    color: white;
+}
+
+nav{
+    text-align: center;
+    background-color: #3d2a05;
+}
+#contenedor4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+nav > ul{
+    list-style: none;
+    padding: 0;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 20px;
+}
+nav > ul > li > #a1 {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav > ul > li > #a1:hover {
+    color: white;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+.main-section {
+    flex: 1;
+    margin-right: 20px;
+}
+  
+.sidebar {
+    flex: 0 0 20%; /* Establece el ancho de la barra lateral */
+    display: flex;
+    flex-direction: column; /* Cambia la dirección de los elementos para centrar y justificar verticalmente */
+    justify-content: center; /* Centra verticalmente los elementos */
+    align-items: center; /* Centra horizontalmente los elementos */
+    padding: 20px;
+}
+.sidebar form button {
+    display: block; /* Hace que el botón ocupe todo el ancho del formulario */
+    margin: 0 auto; /* Centra horizontalmente el botón */
+}
+.sidebar form + form {
+    margin-top: 20px; /* Agrega margen superior entre formularios */
+}
+.sidebar h2:nth-of-type(2) {
+    margin-right: auto;
+}
+h4 {
+    margin-right: auto;
+}
+section{
+    background-color: #e9d9a3;
+    width: 80%;
+    float: left;
+    height: 600px;
+    margin-bottom: 20px;
+}
+aside{
+    background-color: #e9d9a3;
+    width: 20%;
+    float: right;
+    height: 600px;
+    margin-bottom: 20px;
+    color: #65511a;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #68460b;
+    padding: 10px;
+}
+
+.articulos1{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+#vision{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#mision{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    object-fit: cover;
+}
